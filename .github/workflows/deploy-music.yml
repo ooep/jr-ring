@@ -1,0 +1,49 @@
+name: deploy-music
+
+# jr-music — 车站发车铃声数据/音频 Worker（Cloudflare Workers Static Assets，纯静态零计费）
+# 触发：手动（workflow_dispatch）或 master 上 songs/mapping/worker 配置变更。
+# 仓库需配置 Secret: CF_API_TOKEN（与 floral-salad-8734 同一 token 即可）。
+# 域名绑定 jr-music.suki.ing → jr-music 在 Cloudflare Dashboard 手动完成。
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - 'songs/**'
+      - 'mapping.json'
+      - 'static-worker/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-music
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build assets (songs + mapping + _headers)
+        run: python3 static-worker/build_assets.py
+
+      - name: Deploy to Cloudflare Workers
+        if: ${{ env.CF_API_TOKEN != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: npx wrangler@4 deploy --config static-worker/wrangler.toml 2>&1 | tail -12
+
+      - name: Skip deploy (no token)
+        if: ${{ env.CF_API_TOKEN == '' }}
+        run: echo "CF_API_TOKEN 未配置，跳过部署。请先在仓库 Settings→Secrets 添加。"

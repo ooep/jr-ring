@@ -1,0 +1,354 @@
+[
+ {
+  "melody": "ベル 〈変更前〉",
+  "station": "上田"
+ },
+ {
+  "melody": "僕らの夏の夢",
+  "station": "上田"
+ },
+ {
+  "melody": "JRE-IKST-020-02(首都圏21-1番)",
+  "station": "上野"
+ },
+ {
+  "melody": "Toy garden",
+  "station": "上野"
+ },
+ {
+  "melody": "素直な心",
+  "station": "両国"
+ },
+ {
+  "melody": "営団ブザー",
+  "station": "中野"
+ },
+ {
+  "melody": "亜麻色の髪の少女",
+  "station": "伊勢崎"
+ },
+ {
+  "melody": "HANDS〜大きな手から、小さな手へ〜 verB",
+  "station": "北鴻巣"
+ },
+ {
+  "melody": "JRE-IKST-007-05(首都圏1-2番)",
+  "station": "品川"
+ },
+ {
+  "melody": "ヒーリング電車",
+  "station": "四ツ谷"
+ },
+ {
+  "melody": "午後のひととき",
+  "station": "四ツ谷"
+ },
+ {
+  "melody": "ソフィアの鐘の音",
+  "station": "四ツ谷"
+ },
+ {
+  "melody": "希望を乗せて",
+  "station": "国会議事堂前"
+ },
+ {
+  "melody": "ペパーミント",
+  "station": "国会議事堂前"
+ },
+ {
+  "melody": "電車ごっこ verA",
+  "station": "国分寺"
+ },
+ {
+  "melody": "みかんの花咲く丘 V2",
+  "station": "国府津"
+ },
+ {
+  "melody": "みかんの花咲く丘 V4",
+  "station": "国府津"
+ },
+ {
+  "melody": "ようこそ！",
+  "station": "外苑前"
+ },
+ {
+  "melody": "Ready To Go",
+  "station": "外苑前"
+ },
+ {
+  "melody": "JRE-IKST-027-XX(首都圏33-X番)",
+  "station": "大原"
+ },
+ {
+  "melody": "Stream(夜のストレンジャー)",
+  "station": "大宮"
+ },
+ {
+  "melody": "銀河鉄道999 ニューシャトルAメロver",
+  "station": "大宮"
+ },
+ {
+  "melody": "JRE-IKST-021-XX(首都圏3-16番)",
+  "station": "大船"
+ },
+ {
+  "melody": "JRE-IKST-021-XX(首都圏3-17番) 〈変更前〉",
+  "station": "大船"
+ },
+ {
+  "melody": "JRE-IKST-015-XX(首都圏4-X番)",
+  "station": "大船"
+ },
+ {
+  "melody": "エリーゼのために",
+  "station": "太田"
+ },
+ {
+  "melody": "ロンドン橋",
+  "station": "太田"
+ },
+ {
+  "melody": "It's a small world",
+  "station": "太田"
+ },
+ {
+  "melody": "アヴィニョン橋の上で",
+  "station": "太田"
+ },
+ {
+  "melody": "大きな古時計",
+  "station": "太田"
+ },
+ {
+  "melody": "ミッキーマウスマーチ",
+  "station": "太田"
+ },
+ {
+  "melody": "村の鍛冶屋",
+  "station": "太田"
+ },
+ {
+  "melody": "JRE-IKST-022-XX(首都圏36-4番)",
+  "station": "姉ヶ崎"
+ },
+ {
+  "melody": "1,2,3,FOOOOUR verA",
+  "station": "川越"
+ },
+ {
+  "melody": "1,2,3,FOOOOUR verB",
+  "station": "川越"
+ },
+ {
+  "melody": "JRE-IKST-006-05(首都圏5-3番)",
+  "station": "川越"
+ },
+ {
+  "melody": "楽曲なし",
+  "station": "府中本町"
+ },
+ {
+  "melody": "Cappccino",
+  "station": "我孫子"
+ },
+ {
+  "melody": "JRE-IKST-011-04 〈変更前〉",
+  "station": "我孫子"
+ },
+ {
+  "melody": "ミツバチの兄弟",
+  "station": "新宿"
+ },
+ {
+  "melody": "きらめく小川",
+  "station": "新宿"
+ },
+ {
+  "melody": "明日はきっと",
+  "station": "新木場"
+ },
+ {
+  "melody": "twilight 〈使用終了済〉",
+  "station": "新松戸"
+ },
+ {
+  "melody": "スタートライン",
+  "station": "新橋"
+ },
+ {
+  "melody": "Fast River",
+  "station": "新橋"
+ },
+ {
+  "melody": "Melody04(新永楽2番)",
+  "station": "新白河"
+ },
+ {
+  "melody": "オリジナル曲(末広町A)",
+  "station": "末広町"
+ },
+ {
+  "melody": "オリジナル曲(末広町B)",
+  "station": "末広町"
+ },
+ {
+  "melody": "〈接近〉YELL サビver",
+  "station": "本厚木"
+ },
+ {
+  "melody": "〈接近〉YELL イントロver",
+  "station": "本厚木"
+ },
+ {
+  "melody": "JRE-IKST-027-03 【使用列車なし】",
+  "station": "本納"
+ },
+ {
+  "melody": "〈予告〉E3 Way back home",
+  "station": "東武日光"
+ },
+ {
+  "melody": "JRE-IKST-012-XX(首都圏9-5番)",
+  "station": "松本"
+ },
+ {
+  "melody": "突き進め柏",
+  "station": "柏"
+ },
+ {
+  "melody": "アンゴラ",
+  "station": "柏"
+ },
+ {
+  "melody": "チュニジア",
+  "station": "柏"
+ },
+ {
+  "melody": "ジョージイタリアーノ",
+  "station": "柏"
+ },
+ {
+  "melody": "JRE-IKST-007-03(首都圏1-3番) 〈変更前〉",
+  "station": "桜木町"
+ },
+ {
+  "melody": "JRE-IKST-006-05(首都圏5-3番) 〈変更前〉",
+  "station": "武蔵浦和"
+ },
+ {
+  "melody": "闘魂こめて verB",
+  "station": "水道橋"
+ },
+ {
+  "melody": "闘魂こめて verA",
+  "station": "水道橋"
+ },
+ {
+  "melody": "JRE-IKST-025-01(首都圏26-1番)",
+  "station": "渋川"
+ },
+ {
+  "melody": "時よ",
+  "station": "湘南台"
+ },
+ {
+  "melody": "オリジナル曲(溜池山王A)",
+  "station": "溜池山王"
+ },
+ {
+  "melody": "オリジナル曲(溜池山王B)",
+  "station": "溜池山王"
+ },
+ {
+  "melody": "ダイジョウブ アコースティックギターver",
+  "station": "盛岡"
+ },
+ {
+  "melody": "モンダミン verA",
+  "station": "神田"
+ },
+ {
+  "melody": "モンダミン verB",
+  "station": "神田"
+ },
+ {
+  "melody": "JRE-IKST-021-10(首都圏3-6番) 〈変更前〉",
+  "station": "茅ヶ崎"
+ },
+ {
+  "melody": "JRE-IKST-021-08(首都圏3-7番) 〈変更前〉",
+  "station": "茅ヶ崎"
+ },
+ {
+  "melody": "希望の轍 verA",
+  "station": "茅ヶ崎"
+ },
+ {
+  "melody": "星の贈りもの",
+  "station": "荻窪"
+ },
+ {
+  "melody": "ハート畑",
+  "station": "荻窪"
+ },
+ {
+  "melody": "雅楽谷の森～蓮田のタカラ～ verB",
+  "station": "蓮田"
+ },
+ {
+  "melody": "藤沢市歌 V1 〈変更前〉",
+  "station": "藤沢"
+ },
+ {
+  "melody": "ありがとう Aメロver",
+  "station": "調布"
+ },
+ {
+  "melody": "ありがとう サビver",
+  "station": "調布"
+ },
+ {
+  "melody": "〈発車予告〉大野にかえろう",
+  "station": "越前大野"
+ },
+ {
+  "melody": "銀座カンカン娘 Aメロver",
+  "station": "銀座"
+ },
+ {
+  "melody": "銀座カンカン娘 サビver",
+  "station": "銀座"
+ },
+ {
+  "melody": "〈入線〉ベル",
+  "station": "関西空港"
+ },
+ {
+  "melody": "〈接近〉関西空港線接近標準A-a /〈入線〉関西空港線入線標準A-a /〈発車〉関西空港線発車標準A-a",
+  "station": "関西空港"
+ },
+ {
+  "melody": "〈接近〉関西空港線接近標準A-a /〈入線〉関西空港線入線標準B-a /〈発車〉ブザー",
+  "station": "関西空港"
+ },
+ {
+  "melody": "坂のある街",
+  "station": "飯田橋"
+ },
+ {
+  "melody": "水の戯れ",
+  "station": "飯田橋"
+ },
+ {
+  "melody": "美酒加珈琲",
+  "station": "高崎"
+ },
+ {
+  "melody": "鉄腕アトム verA",
+  "station": "高田馬場"
+ },
+ {
+  "melody": "鉄腕アトム verB",
+  "station": "高田馬場"
+ }
+]

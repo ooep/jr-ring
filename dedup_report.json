@@ -1,0 +1,276 @@
+{
+ "generated_at": "2026-10-31T11:24:37.256953Z",
+ "stats": {
+  "stations_with_melody": 667,
+  "melody_records": 2548,
+  "without_audio": 504,
+  "doc_only": 801,
+  "with_audio": 2044,
+  "deduped_records": 535,
+  "eki_only": 708,
+  "filled_by_ekimero": 18
+ },
+ "byte_identical_groups": {
+  "c9513a3e09c00ef675c124622212be66": [
+   "songs/春(強調トレモロ).mp3",
+   "songs/春トレモロ.mp3"
+  ],
+  "ed514a1e4ea9849f7aeef092477f648d": [
+   "songs/春 高音余韻短縮トレモロVer.mp3",
+   "songs/春.mp3"
+  ]
+ },
+ "byte_identical_cross_source": {},
+ "sample_deduped": [
+  {
+   "station": "いわき",
+   "platform": "1番線 -常磐線上り",
+   "melody": "フラガール〜虹を〜",
+   "sources": {
+    "dokobell": "songs/フラガール〜虹を〜.mp3",
+    "ekimero": "songs/フラガール～虹を～.mp3"
+   },
+   "audio": "songs/フラガール～虹を～.mp3"
+  },
+  {
+   "station": "いわき",
+   "platform": "2番線 -常磐線上り",
+   "melody": "フラガール〜虹を〜",
+   "sources": {
+    "dokobell": "songs/フラガール〜虹を〜.mp3",
+    "ekimero": "songs/フラガール～虹を～.mp3"
+   },
+   "audio": "songs/フラガール～虹を～.mp3"
+  },
+  {
+   "station": "いわき",
+   "platform": "3番線 -常磐線下り",
+   "melody": "JRE-IKST-013-02(首都圏12番)",
+   "sources": {
+    "dokobell": "songs/首都圏12番_dokobell.mp3",
+    "ekimero": "songs/首都圏12番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏12番_ekimero.mp3"
+  },
+  {
+   "station": "さいたま新都心",
+   "platform": "1番線 -京浜東北線南行",
+   "melody": "JRE-IKST-007-02(首都圏1番)",
+   "sources": {
+    "dokobell": "songs/首都圏1番_dokobell.mp3",
+    "ekimero": "songs/首都圏1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏1番_ekimero.mp3"
+  },
+  {
+   "station": "さいたま新都心",
+   "platform": "2番線 -京浜東北線北行",
+   "melody": "希望のまち09",
+   "sources": {
+    "dokobell": "songs/希望のまち09_dokobell.mp3",
+    "ekimero": "songs/希望のまち09_ekimero.mp3"
+   },
+   "audio": "songs/希望のまち09_ekimero.mp3"
+  },
+  {
+   "station": "さいたま新都心",
+   "platform": "3番線 -宇都宮線上り",
+   "melody": "JRE-IKST-021-02(首都圏3番)",
+   "sources": {
+    "dokobell": "songs/首都圏3番_dokobell.mp3",
+    "ekimero": "songs/首都圏3番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏3番_ekimero.mp3"
+  },
+  {
+   "station": "さいたま新都心",
+   "platform": "4番線 -宇都宮線下り",
+   "melody": "JRE-IKST-021-01(首都圏3-1番)",
+   "sources": {
+    "dokobell": "songs/首都圏3-1番_dokobell.mp3",
+    "ekimero": "songs/首都圏3-1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏3-1番_ekimero.mp3"
+  },
+  {
+   "station": "三河島",
+   "platform": "1番線 -常磐線上り",
+   "melody": "JRE-IKST-013-01(首都圏12-1番)",
+   "sources": {
+    "dokobell": "songs/首都圏12-1番_dokobell.mp3",
+    "ekimero": "songs/首都圏12-1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏12-1番_ekimero.mp3"
+  },
+  {
+   "station": "三河島",
+   "platform": "2番線 -常磐線下り",
+   "melody": "JRE-IKST-013-02(首都圏12番)",
+   "sources": {
+    "dokobell": "songs/首都圏12番_dokobell.mp3",
+    "ekimero": "songs/首都圏12番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏12番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "1番線 -京浜東北線北行",
+   "melody": "JRE-IKST-007-01(首都圏1-1番)",
+   "sources": {
+    "dokobell": "songs/首都圏1-1番_dokobell.mp3",
+    "ekimero": "songs/首都圏1-1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏1-1番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "2番線 -山手線内回り",
+   "melody": "JRE-IKST-010-01(首都圏11番)",
+   "sources": {
+    "dokobell": "songs/首都圏11番_dokobell.mp3",
+    "ekimero": "songs/首都圏11番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏11番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "3番線 -山手線外回り",
+   "melody": "JRE-IKST-010-02(首都圏11-1番)",
+   "sources": {
+    "dokobell": "songs/首都圏11-1番_dokobell.mp3",
+    "ekimero": "songs/首都圏11-1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏11-1番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "4番線 -京浜東北線南行",
+   "melody": "JRE-IKST-007-02(首都圏1番)",
+   "sources": {
+    "dokobell": "songs/首都圏1番_dokobell.mp3",
+    "ekimero": "songs/首都圏1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏1番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "5番線 -上野東京ライン北行",
+   "melody": "JRE-IKST-021-01(首都圏3-1番)",
+   "sources": {
+    "dokobell": "songs/首都圏3-1番_dokobell.mp3",
+    "ekimero": "songs/首都圏3-1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏3-1番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "6番線 -上野東京ライン北行",
+   "melody": "JRE-IKST-013-02(首都圏12番)",
+   "sources": {
+    "dokobell": "songs/首都圏12番_dokobell.mp3",
+    "ekimero": "songs/首都圏12番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏12番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "7番線 -上野東京ライン南行",
+   "melody": "JRE-IKST-021-02(首都圏3番)",
+   "sources": {
+    "dokobell": "songs/首都圏3番_dokobell.mp3",
+    "ekimero": "songs/首都圏3番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏3番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "8番線 -上野東京ライン北行・南行",
+   "melody": "JRE-IKST-020-01(首都圏21番)",
+   "sources": {
+    "dokobell": "songs/首都圏21番_dokobell.mp3",
+    "ekimero": "songs/首都圏21番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏21番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "9番線 -上野東京ライン北行・南行",
+   "melody": "JRE-IKST-013-01(首都圏12-1番)",
+   "sources": {
+    "dokobell": "songs/首都圏12-1番_dokobell.mp3",
+    "ekimero": "songs/首都圏12-1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏12-1番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "10番線 -常磐線下り",
+   "melody": "JRE-IKST-005-02(首都圏13-1番)",
+   "sources": {
+    "dokobell": "songs/首都圏13-1番_dokobell.mp3",
+    "ekimero": "songs/首都圏13-1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏13-1番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "13番線 -東北本線下り",
+   "melody": "JRE-IKST-021-03(首都圏3-2番)",
+   "sources": {
+    "dokobell": "songs/首都圏3-2番_dokobell.mp3",
+    "ekimero": "songs/首都圏3-2番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏3-2番_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "16番線 -東北本線・常磐線下り",
+   "melody": "あゝ上野駅",
+   "sources": {
+    "dokobell": "songs/あゝ上野駅_dokobell.mp3",
+    "ekimero": "songs/あゝ上野駅_ekimero.mp3"
+   },
+   "audio": "songs/あゝ上野駅_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "17番線 -東北本線・常磐線下り",
+   "melody": "あゝ上野駅",
+   "sources": {
+    "dokobell": "songs/あゝ上野駅_dokobell.mp3",
+    "ekimero": "songs/あゝ上野駅_ekimero.mp3"
+   },
+   "audio": "songs/あゝ上野駅_ekimero.mp3"
+  },
+  {
+   "station": "上野",
+   "platform": "2番線 -日比谷線B線",
+   "melody": "さあ、行くよ！",
+   "sources": {
+    "dokobell": "songs/さあ、行くよ！_dokobell.mp3",
+    "ekimero": "songs/さあ、行くよ！_ekimero.mp3"
+   },
+   "audio": "songs/さあ、行くよ！_ekimero.mp3"
+  },
+  {
+   "station": "上野原",
+   "platform": "1番線 -中央本線上り",
+   "melody": "JRE-IKST-012-01(首都圏9番)",
+   "sources": {
+    "dokobell": "songs/首都圏9番_dokobell.mp3",
+    "ekimero": "songs/首都圏9番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏9番_ekimero.mp3"
+  },
+  {
+   "station": "両国",
+   "platform": "1番線 -中央総武線西行",
+   "melody": "JRE-IKST-003-01(首都圏10-1番)",
+   "sources": {
+    "dokobell": "songs/首都圏10-1番_dokobell.mp3",
+    "ekimero": "songs/首都圏10-1番_ekimero.mp3"
+   },
+   "audio": "songs/首都圏10-1番_ekimero.mp3"
+  }
+ ]
+}

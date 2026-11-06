@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>发车旋律 AI 音质增强 · A/B 试听</title>
+<style>
+  :root{--bg:#0f1115;--card:#1a1d24;--acc:#5b8cff;--ok:#37d39b;--txt:#e7eaf0;--mut:#9aa3b2;--line:#2a2f3a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.6}
+  .wrap{max-width:880px;margin:0 auto;padding:28px 20px 60px}
+  h1{font-size:24px;margin:0 0 6px}
+  .sub{color:var(--mut);font-size:14px;margin:0 0 22px}
+  .tech{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:24px;font-size:14px}
+  .tech b{color:var(--acc)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:20px}
+  .card h2{margin:0 0 4px;font-size:18px}
+  .tag{display:inline-block;font-size:12px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:2px 10px;margin-left:8px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+  @media(max-width:640px){.row{grid-template-columns:1fr}}
+  .item{background:#14171d;border:1px solid var(--line);border-radius:10px;padding:14px}
+  .item .lab{font-size:13px;margin-bottom:8px}
+  .item .lab .o{color:var(--mut)} .item .lab .a{color:var(--ok);font-weight:600}
+  audio{width:100%;height:38px}
+  .meta{font-size:12px;color:var(--mut);margin-top:8px;font-variant-numeric:tabular-nums}
+  .note{color:var(--mut);font-size:13px;margin-top:18px;border-top:1px dashed var(--line);padding-top:14px}
+  .footer{color:var(--mut);font-size:12px;margin-top:30px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>发车旋律 · 音质提升 A/B 试听</h1>
+  <p class="sub">同一段旋律，左为<b style="color:var(--mut)">原始文件</b>，右为 <b style="color:var(--ok)">音质提升版</b>。请戴上耳机对比。</p>
+
+  <div class="tech">
+    <b>音质提升方案（四步母带处理）：</b><br>
+    ① 削顶修复 —— 修复源文件本身自带的满幅削顶失真（部分车站录音峰值顶到 0dB 产生的破音）；<br>
+    ② 去直流 / 超低频；<br>
+    ③ 轻提高频清晰度（10kHz +1.5dB air）；<br>
+    ④ 两遍响度归一 —— 统一到 -14 LUFS 广播级饱满电平，峰值受控不失真。<br>
+    输出 24bit 无损 WAV，保留音乐动态，不改变音高与节奏。
+  </div>
+
+  <div class="card">
+    <h2>样本 1 · ドコベル（dkst 源）<span class="tag">フラガール〜虹を〜</span></h2>
+    <div class="meta">原片 44.1kHz / 128kbps MP3 · 时长 17.87s ｜ 增强 44.1kHz / 无损 WAV</div>
+    <div class="row">
+      <div class="item">
+        <div class="lab"><span class="o">● 原始 Original</span></div>
+        <audio controls preload="none" src="dokobell_origin.mp3"></audio>
+        <div class="meta">MP3 128kbps（有损）</div>
+      </div>
+      <div class="item">
+        <div class="lab"><span class="a">● 音质提升 优化版</span></div>
+        <audio controls preload="none" src="dokobell.wav"></audio>
+        <div class="meta">WAV 无损（响度归一 + 清晰度）</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>样本 2 · ekimero（GitHub Pages 源）<span class="tag">首都圏1番</span></h2>
+    <div class="meta">原片 48kHz / 128kbps MP3 · 时长 9.70s ｜ 增强 48kHz / 无损 WAV</div>
+    <div class="row">
+      <div class="item">
+        <div class="lab"><span class="o">● 原始 Original</span></div>
+        <audio controls preload="none" src="ekimero_origin.mp3"></audio>
+        <div class="meta">MP3 128kbps（有损）</div>
+      </div>
+      <div class="item">
+        <div class="lab"><span class="a">● 音质提升 优化版</span></div>
+        <audio controls preload="none" src="ekimero.wav"></audio>
+        <div class="meta">WAV 无损（响度归一 + 清晰度）</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="note">说明：这是修正后的音质提升方案（之前的版本误用了语音处理模型，会把干净旋律的能量压没、音量消失，已废弃）。本试听仅 2 个样本。<br>若觉得「音量更饱满、更清晰、值得全量」，我再对仓库全部音频跑同款处理（脚本已就绪，输出到新目录，原文件不改动，便于回滚）；若觉得「差别不大/不喜欢」，则保留原片。</p>
+
+  <div class="footer">jr-ring · AI audio 音质提升 demo</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# jr-music worker 组装产物（由 static-worker/build_assets.py 生成，不入库）
+static-worker/assets/
+
+__pycache__/
+*.pyc
