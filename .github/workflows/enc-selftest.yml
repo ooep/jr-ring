@@ -1,3 +1,4 @@
+# reindex probe 2026-11-06
 name: enc-selftest
 
 # Verifies the verify-then-write contract end to end:
